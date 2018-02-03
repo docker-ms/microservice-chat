@@ -1,0 +1,24 @@
+{
+  "name": "microservice-chat",
+  "version": "0.0.1",
+  "description": "This is the 'chat' microservice.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/v-cube/microservice-chat.git"
+  },
+  "dependencies": {
+    "bluebird": "~3.4.7",
+    "grpc": "~1.4.1",
+    "microservice-consul": "git+ssh://git@bitbucket.org/v-cube/microservice-module-consul.git",
+    "microservice-email": "git+ssh://git@bitbucket.org/v-cube/microservice-module-email.git",
+    "microservice-errors": "git+ssh://git@bitbucket.org/v-cube/microservice-module-error.git",
+    "microservice-i18n": "git+ssh://git@bitbucket.org/v-cube/microservice-module-i18n.git",
+    "microservice-mongodb-conn-pools": "git+ssh://git@bitbucket.org/v-cube/microservice-module-mongodb-conn-pool-js.git",
+    "microservice-protos": "git+ssh://git@bitbucket.org/v-cube/microservice-module-proto.git",
+    "microservice-utils": "git+ssh://git@bitbucket.org/v-cube/microservice-module-util-js.git",
+    "moment": "~2.16.0",
+    "shortid": "~2.2.6",
+    "uuid": "~3.0.1"
+  }
+}
